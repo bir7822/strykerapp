@@ -25,7 +25,12 @@ jobs:
           export ANDROID_SDK_ROOT="${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}"
           SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
           yes | "$SDKMANAGER" --licenses >/dev/null 2>&1 || true
-          "$SDKMANAGER" "platforms;android-37" "build-tools;36.0.0" "ndk;25.1.8937393" "cmake;3.22.1"
+          "$SDKMANAGER" "platforms;android-36" "build-tools;36.0.0" "ndk;25.1.8937393" "cmake;3.22.1"
+
+      - name: Build against API 36 for this test APK (runner-only, source untouched in git)
+        run: |
+          sed -i 's/compileSdk 37/compileSdk 36/; s/targetSdk 37/targetSdk 36/' app/build.gradle
+          echo "Using compileSdk/targetSdk 36 for the test build (API 37 platform not yet published)."
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
