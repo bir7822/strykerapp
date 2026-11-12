@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+  <string name="app_name" translatable="false">Stryker Terminal</string>
+  <string name="copy_text">Copier</string>
+  <string name="paste_text">Coller</string>
+  <string name="super_paste_text">Super-collage</string>
+  <string name="text_selection_more">Plus</string>
+
+  <string name="toggle_tab_switcher_menu_item">Afficher/masquer les onglets</string>
+  <string name="new_session">Nouvelle session</string>
+  <string name="new_session_more">Nouvelle session…</string>
+  <string name="new_system_session">Nouveau shell système</string>
+  <string name="new_root_session">Nouveau shell root</string>
+  <string name="service_status_text">%d session(s)</string>
+  <string name="service_lock_acquired">(Veille verrouillée)</string>
+  <string name="service_acquire_lock">Acquérir le verrou</string>
+  <string name="service_release_lock">Libérer le verrou</string>
+
+  <string name="setup_info">Bonjour, Stryker Terminal</string>
+  <string name="setup_next">C\'est parti !</string>
+  <string name="setup_setup_method">Choisissez votre méthode d\'installation</string>
+  <string name="setup_online">Installation en ligne</string>
+  <string name="setup_local">Installation depuis un fichier zip local</string>
+  <string name="setup_backup">Restaurer depuis une sauvegarde Stryker Terminal</string>
+  <string name="setup_source_parameter">Paramètre source</string>
+  <string name="setup_input_source_parameter">Saisir le paramètre source…</string>
+  <string name="setup_dots" translatable="false">…</string>
+  <string name="setup_hint_online">URL du miroir contenant les fichiers zip d\'installation</string>
+  <string name="setup_hint_local">Chemin du fichier zip d\'installation</string>
+  <string name="setup_hint_backup">Chemin du fichier de sauvegarde (*.neobackup)</string>
+  <string name="setup_error_file_not_found">Fichier introuvable</string>
+  <string name="setup_error_invalid_url">URL invalide</string>
+  <string name="setup_error_no_internet">Aucune connexion Internet</string>
+  <string name="setup_error_connection_failed">Échec de la connexion au serveur</string>
+  <string name="setup_error_parameter_null">Le paramètre d\'installation est vide</string>
+  <string name="setup_preparing">Préparation…</string>
+  <string name="setup_confirm">Terminer l\'installation</string>
+  <string name="setup_confirm_text">Tout s\'est bien passé jusqu\'ici, continuer ?</string>
+  <string name="setup_reset_confirm">Confirmer la réinitialisation</string>
+  <string name="setup_reset_confirm_text">Cette opération effacera toutes vos données ! Continuer ?</string>
+
+  <string name="about">À propos</string>
+  <string name="settings">Paramètres</string>
+  <string name="general_settings">Paramètres généraux</string>
+  <string name="general_settings_desc">Signal sonore, shell, commande initiale</string>
+  <string name="ui_settings">Paramètres de l\'interface</string>
+  <string name="ui_settings_desc">Plein écran, barre de titre, animations</string>
+  <string name="package_settings">Paramètres des paquets</string>
+  <string name="package_settings_desc">Source, mises à jour, mises à niveau</string>
+  <string name="customization_settings_desc">Police, jeu de couleurs</string>
+  <string name="customization_settings">Personnalisation</string>
+
+  <string name="term_settings_subtitle">Stryker Terminal</string>
+  <string name="term_settings_section_prefs">Préférences</string>
+  <string name="term_settings_section_maint">Maintenance</string>
+  <string name="term_settings_section_about">À propos</string>
+
+  <string name="term_settings_general_title">Général</string>
+  <string name="term_settings_general_subtitle">Commande initiale, touches et saisie</string>
+  <string name="term_settings_ui_title">Interface</string>
+  <string name="term_settings_ui_subtitle">Plein écran, barre d\'outils, onglets, touches supplémentaires</string>
+  <string name="term_settings_customization_title">Personnalisation</string>
+  <string name="term_settings_customization_subtitle">Polices et jeux de couleurs</string>
+
+  <string name="term_settings_reset_title">Réinitialiser les ressources du terminal</string>
+  <string name="term_settings_reset_subtitle">Réextraire les scripts shell intégrés</string>
+
+  <string name="term_settings_licenses_title">Licences open source</string>
+  <string name="term_settings_licenses_subtitle">Composants tiers</string>
+  <string name="term_settings_github_title">Projet sur GitHub</string>
+  <string name="term_settings_github_subtitle">github.com/zalexdev/strykerapp</string>
+
+  <string name="term_pref_initial_command_title">Commande initiale</string>
+  <string name="term_pref_initial_command_subtitle">Exécutée automatiquement à chaque nouvelle session</string>
+  <string name="term_pref_initial_command_hint">ex. neofetch</string>
+  <string name="term_pref_backspace_esc_title">La touche Retour envoie ÉCHAP</string>
+  <string name="term_pref_backspace_esc_subtitle">Associer le bouton retour de l\'appareil à Échap</string>
+  <string name="term_pref_volume_ctrl_title">Touches de volume comme Ctrl</string>
+  <string name="term_pref_volume_ctrl_subtitle">Volume bas agit comme la touche Ctrl</string>
+  <string name="term_pref_word_ime_title">Saisie par mots</string>
+  <string name="term_pref_word_ime_subtitle">Suggestions de clavier plus pratiques, moins précises</string>
+
+  <string name="term_pref_fullscreen_title">Plein écran</string>
+  <string name="term_pref_fullscreen_subtitle">Masquer la barre d\'état du système</string>
+  <string name="term_pref_hide_toolbar_title">Masquer la barre d\'outils automatiquement</string>
+  <string name="term_pref_hide_toolbar_subtitle">Masquer la barre d\'outils pendant la saisie</string>
+  <string name="term_pref_next_tab_title">Passer à l\'onglet suivant à la fermeture</string>
+  <string name="term_pref_next_tab_subtitle">Avancer d\'un onglet après la fermeture d\'une session</string>
+  <string name="term_pref_eks_title">Rangée de touches supplémentaires</string>
+  <string name="term_pref_eks_subtitle">Afficher Ctrl / Échap / flèches au-dessus du clavier</string>
+  <string name="term_pref_eks_weight_title">Espacement uniforme des touches supplémentaires</string>
+  <string name="term_pref_eks_weight_subtitle">Répartir les touches supplémentaires de façon égale</string>
+
+  <string name="term_settings_value_none">Aucune</string>
+  <string name="term_dialog_save">Enregistrer</string>
+
+  <string name="toggle_ime">Afficher/masquer le clavier</string>
+  <string name="float_up">Flotter au-dessus</string>
+  <string name="shell_not_found">Shell %s introuvable</string>
+  <string name="shell_not_found_message">Voulez-vous l\'installer ?</string>
+  <string name="fullscreen_mode_changed">Le mode plein écran a changé, veuillez redémarrer Stryker Terminal.</string>
+  <string name="permission_denied">Autorisation de stockage refusée — l\'accès aux fichiers externes est limité (le terminal fonctionne quand même).</string>
+  <string name="error">Oups !</string>
+  <string name="use_system_shell">Shell système</string>
+  <string name="retry">Réessayer</string>
+  <string name="source_changed">Source APT modifiée, mettez-la à jour en exécutant : apt update</string>
+  <string name="done">Terminé</string>
+  <string name="install">Installer</string>
+  <string name="package_details" formatted="false">Paquet : %s\nVersion : %s\nDépend de : %s\nTaille installée : %s\nDescription : %s\nPage d\'accueil : %s</string>
+  <string name="package_list_empty">La liste des paquets est vide, veuillez vérifier votre source.</string>
+  <string name="menu_refresh_list">Actualiser</string>
+  <string name="menu_update">Mettre à jour et actualiser</string>
+  <string name="install_font">Installer une police</string>
+  <string name="install_color">Installer un jeu de couleurs</string>
+
+  <string name="crash_model">Modèle : %s</string>
+  <string name="crash_app">Application : %s</string>
+  <string name="crash_stack_trace">Trace de la pile</string>
+
+  <string name="installer_message">Installation</string>
+  <string name="installer_install_zsh_required">Nous allons installer oh-my-zsh et remplacer votre programme de connexion par zsh</string>
+
+  <string name="pref_general_bell">Signal sonore</string>
+  <string name="pref_general_bell_desc">Signal sonore à la réception de « \a »</string>
+  <string name="pref_general_backspace_map_to_esc">Retour arrière associé à Échap</string>
+  <string name="pref_general_backspace_map_to_esc_desc">Envoyer Échap lorsque Retour arrière est pressé</string>
+  <string name="pref_general_shell">Programme de connexion</string>
+  <string name="pref_general_shell_desc">Quel programme utiliser comme shell à la connexion</string>
+  <string name="pref_general_initial_command">Commande initiale</string>
+  <string name="pref_general_initial_command_desc">Exécuter des commandes à la création d\'une session</string>
+  <string name="pref_general_auto_completion">Auto-complétion (expérimental)</string>
+  <string name="pref_general_auto_completion_desc">Activer la complétion lors de la saisie des commandes ou des chemins. Encore en cours de développement, avec de nombreux bugs à corriger</string>
+  <string name="pref_general_volume_as_control">Utiliser Volume haut et bas comme touches spéciales</string>
+  <string name="pref_general_volume_as_control_desc">Volume bas comme Ctrl\nVolume haut comme FN</string>
+  <string name="pref_general_use_execve_wrapper">Utiliser le wrapper execve()</string>
+  <string name="pref_general_use_execve_wrapper_desc">Intercepter execve() pour éviter un shebang incorrect</string>
+  <string name="pref_general_enable_word_based_ime">Activer la saisie par mots</string>
+  <string name="pref_general_enable_word_based_ime_desc">Saisie par mots ou par caractères</string>
+  <string name="pref_ui_fullscreen">Plein écran</string>
+  <string name="pref_ui_hide_toolbar">Masquer la barre d\'outils</string>
+  <string name="pref_ui_hide_toolbar_desc">Masquer la barre d\'outils lorsque le clavier est affiché</string>
+  <string name="pref_ui_close_tab_anim_next_tab">Animation vers l\'onglet suivant</string>
+  <string name="pref_ui_close_tab_anim_next_tab_desc">Passer à l\'onglet suivant plutôt qu\'au précédent lors de la fermeture d\'un onglet</string>
+  <string name="pref_ui_eks_weight_explicit">Utiliser un poids explicite pour ExtraKeysView</string>
+  <string name="pref_ui_eks_weight_explicit_desc">Si ExtraKeysView s\'affiche mal, activez cette option</string>
+  <string name="pref_ui_eks_enabled">Afficher les touches supplémentaires</string>
+  <string name="pref_ui_eks_enabled_desc">Des touches utiles comme flèche, échap, tab, etc.</string>
+  <string name="pref_customization_font">Police</string>
+  <string name="pref_customization_color_scheme">Jeu de couleurs</string>
+  <string name="pref_customization_eks">Touches supplémentaires</string>
+  <string name="pref_package_source">Source</string>
+
+  <string name="exit">Quitter</string>
+  <string name="term_here">Terminal ici</string>
+  <string name="user_script">Script utilisateur</string>
+  <string name="command_shortcut">Raccourci de commande</string>
+  <string name="no_user_script_found">Aucun script utilisateur trouvé (avez-vous oublié de définir les permissions d\'exécution ?)</string>
+  <string name="no_files_selected">Aucun fichier sélectionné\n\n(Intent brut : %s)</string>
+  <string name="unsupported_term_here">Terminal ici non pris en charge\n\n(Intent brut : %s)</string>
+  <string name="files_to_handle">Fichiers à traiter</string>
+  <string name="available_user_scripts">Scripts utilisateur disponibles</string>
+  <string name="confirm_remove_file_from_list">Retirer le fichier de la liste ?</string>
+  <string name="confirm_remove">Retirer ?</string>
+  <string name="command_shortcut_display_title">Titre</string>
+  <string name="command_shortcut_command">Commande</string>
+  <string name="no_command_extra">Aucune commande fournie, avez-vous ajouté les extras ?</string>
+  <string name="command_display_title_cannot_be_null">Le titre affiché ne peut pas être vide</string>
+  <string name="menu_upgrade">Mettre à niveau</string>
+  <string name="apt_update_ok">Liste des paquets mise à jour avec succès</string>
+  <string name="apt_upgrade_ok">Paquet mis à niveau avec succès</string>
+  <string name="installing_topic">Installation démarrée. Veuillez prêter attention à l\'invite qui apparaît à l\'écran</string>
+  <string name="session_closed">La session a été fermée</string>
+  <string name="restore_session">Annuler</string>
+  <string name="show_help">Afficher l\'aide</string>
+  <string name="service_connection_failed">Échec de la connexion au service</string>
+  <string name="about_version_label">Version</string>
+  <string name="about_developers_label">Développeurs et contributeurs</string>
+  <string name="about_libraries_label">Bibliothèques</string>
+  <string name="about_source_label">Code source</string>
+  <string name="about_reset_label">Réinitialiser l\'application</string>
+  <string name="about_reset_label_desc">Effacer tous les fichiers sauf le dossier personnel de l\'utilisateur</string>
+  <string name="new_color_scheme">Nouveau jeu de couleurs</string>
+  <string name="faq">FAQ</string>
+  <string name="new_source">Nouveau</string>
+  <string name="process_exit_info">Processus terminé</string>
+  <string name="process_exit_code">code %d</string>
+  <string name="process_exit_signal">signal %d</string>
+  <string name="process_exit_prompt">appuyez sur Entrée</string>
+  <string name="process_exit_prompt_press_back">Appuyez sur Retour</string>
+  <string name="save_color_info">Saisissez le nom du nouveau jeu de couleurs</string>
+  <string name="save_color_scheme_name_template">NouveauJeuDeCouleurs</string>
+  <string name="save_color">Enregistrer le jeu de couleurs</string>
+  <string name="discard_changes">Abandonner toutes les modifications ?</string>
+  <string name="save">Enregistrer</string>
+  <string name="select_new_value">Choisir</string>
+  <string name="input_new_value">Saisir une nouvelle couleur</string>
+  <string name="toggle_eks">Afficher/masquer les touches supplémentaires</string>
+  <string name="new_x_session">Nouvelle session X</string>
+  <string name="new_session_with_profile">Nouvelle session avec profil</string>
+  <string name="no_profile_available">Aucun profil disponible</string>
+  <string name="no_file_picker">Aucun sélecteur de fichiers trouvé</string>
+  <string name="input_new_source_url">Saisir une nouvelle URL</string>
+  <string name="input_new_source_repo">Saisir un nouveau dépôt</string>
+  <string name="error_new_source_url">L\'URL ne peut pas être vide</string>
+  <string name="error_new_source_repo">Le dépôt ne peut pas être vide</string>
+  <string name="dangerous_zone">Zone dangereuse</string>
+  <string name="reset_app_warning">Cela va supprimer et recopier les fichiers nécessaires au démarrage du chroot Stryker, confirmer ?</string>
+
+  <string name="default_source_url" translatable="false">https://example.com/terminal</string>
+
+  <string name="sources_licenses">
+    Stryker Terminal is based on NeoTerm and Termux, licensed under the GNU GPL v3.0.
+    The complete open-source license list for the whole app — every library, bundled
+    binary and chroot tool — is in Settings → About → Open-source licenses.
+
+    Components credited below:
+
+    ADBToolkitInstaller (https://github.com/Crixec/ADBToolKitsInstaller)
+Copyright © 2017 Crixec
+
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see .
+
+    \n\n\n
+
+    Android-Terminal-Emulator (https://github.com/jackpal/Android-Terminal-Emulator)
+Copyright © 2011-2016 Steven Luo
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+    \n\n\n
+
+    ChromeLikeTabSwitcher (https://github.com/michael-rapp/ChromeLikeTabSwitcher)
+Copyright © 2016-2017 Michael Rapp
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n\n\nColor-O-Matic (https://github.com/GrenderG/Color-O-Matic)
+Copyright 2016-2017 GrenderG
+
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see .
+\n\n\n
+EventBus (http://greenrobot.org)
+Copyright © 2012-2016 Markus Junginger, greenrobot (http://greenrobot.org)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n\n\n ModularAdapter (https://wrdlbrnft.github.io/ModularAdapter)
+Copyright © 2017 Wrdlbrnft
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+    \n\n\n
+
+    RecyclerTabLayout (https://github.com/nshmura/RecyclerTabLayout)
+Copyright © 2017 nshmura
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+
+    \n\n\n
+
+    RecyclerView-FastScroll (Copyright © 2016, Tim Malseed)
+Copyright © 2016, Tim Malseed
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+    \n\n\n
+
+
+    SortedListAdapter (https://wrdlbrnft.github.io/SortedListAdapter/)
+Copyright © 2017 Wrdlbrnft
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+\n\n\nTermux (https://termux.com)
+Copyright 2016-2017 Fredrik Fornwall
+
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see .
+
+
+    \n\n\n
+
+    NeoTerm (https://github.com/NeoTerm/NeoTerm)
+Copyright © 2021 imkiva
+
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see .
+
+
+    \n\n\n
+
+Fira Code (https://github.com/tonsky/FiraCode)
+Copyright © 2022 Nikita Prokopov
+
+OFL is used by almost all libre fonts. Selling fonts by themselves is not allowed, but bundling with software or selling font design services is allowed. Font names must usually be changed before making any modifications. Document embedding is allowed.
+\n\n\nZed Fonts (https://github.com/zed-industries/zed-fonts)
+Copyright 2015-2021, Renzhi Li (aka. Belleve Invis, belleve@typeof.net)
+
+OFL is used by almost all libre fonts. Selling fonts by themselves is not allowed, but bundling with software or selling font design services is allowed. Font names must usually be changed before making any modifications. Document embedding is allowed.
+
+
+  </string>
+
+  <string name="source_code">Licences du code source</string>
+  <string-array name="pref_general_shell_entries" translatable="false">
+    <item>sh</item>
+    <item>zsh</item>
+    <item>bash</item>
+    <item>fish</item>
+  </string-array>
+
+  <string-array name="pref_package_source_values" translatable="false">
+    <item>@string/default_source_url</item>
+  </string-array>
+
+  <string-array name="color_item_names">
+    <item>Couleur d\'arrière-plan</item>
+    <item>Couleur de premier plan</item>
+    <item>Couleur du curseur</item>
+    <item>Noir atténué</item>
+    <item>Rouge atténué</item>
+    <item>Vert atténué</item>
+    <item>Jaune atténué</item>
+    <item>Bleu atténué</item>
+    <item>Magenta atténué</item>
+    <item>Cyan atténué</item>
+    <item>Blanc atténué</item>
+    <item>Noir vif</item>
+    <item>Rouge vif</item>
+    <item>Vert vif</item>
+    <item>Jaune vif</item>
+    <item>Bleu vif</item>
+    <item>Magenta vif</item>
+    <item>Cyan vif</item>
+    <item>Blanc vif</item>
+  </string-array>
+
+  <string-array name="custom_preview_script_colors">
+    <item>Welcome to Stryker Terminal\\n</item>
+    <item>"\\e[30m Dim black \\e[0m\\n"</item>
+    <item>"\\e[31m Dim red \\e[0m\\n"</item>
+    <item>"\\e[32m Dim green \\e[0m\\n"</item>
+    <item>"\\e[33m Dim yellow \\e[0m\\n"</item>
+    <item>"\\e[34m Dim blue \\e[0m\\n"</item>
+    <item>"\\e[35m Dim magenta \\e[0m\\n"</item>
+    <item>"\\e[36m Dim cyan \\e[0m\\n"</item>
+    <item>"\\e[37m Dim white \\e[0m\\n"</item>
+    <item>"\\e[1;30m Bright black \\e[0m\\n"</item>
+    <item>"\\e[1;31m Bright red \\e[0m\\n"</item>
+    <item>"\\e[1;32m Bright green \\e[0m\\n"</item>
+    <item>"\\e[1;33m Bright yellow \\e[0m\\n"</item>
+    <item>"\\e[1;34m Bright blue \\e[0m\\n"</item>
+    <item>"\\e[1;35m Bright magenta\\e[0m\\n"</item>
+    <item>"\\e[1;36m Bright cyan \\e[0m\\n"</item>
+    <item>"\\e[1;37m Bright white \\e[0m\\n"</item>
+  </string-array>
+    <string name="title_activity_theme_creator">Créateur de thème</string>
+  <string name="version">Version :</string>
+  <string name="support_us">Soutenez-nous</string>
+  <string name="developers">Développeurs</string>
+  <string name="get_usb_devices">Obtenir les périphériques USB</string>
+  <string name="get_interfaces">Obtenir les interfaces</string>
+  <string name="tools">Outils</string>
+
+  <string name="term_wifi_dialog_title">Interfaces sans fil</string>
+  <string name="term_wifi_scanning">Analyse des adaptateurs…</string>
+  <string name="term_wifi_empty">Aucune interface sans fil détectée</string>
+  <string name="term_wifi_count">%1$d adaptateur(s) détecté(s)</string>
+  <string name="term_iface_type_monitor">Moniteur</string>
+  <string name="term_iface_type_managed">Géré</string>
+  <string name="term_monitor_enable">Activer le moniteur</string>
+  <string name="term_monitor_disable">Arrêter le moniteur</string>
+  <string name="term_monitor_working">En cours…</string>
+  <string name="term_usb_dialog_title">Périphériques USB</string>
+  <string name="term_usb_scanning">Énumération USB…</string>
+  <string name="term_usb_empty">Aucun périphérique USB connecté</string>
+  <string name="term_usb_count">%1$d périphérique(s) connecté(s)</string>
+  <string name="term_dialog_refresh">Actualiser</string>
+  <string name="term_dialog_close">Fermer</string>
+  <string name="term_op_timeout">Délai dépassé — touchez Actualiser pour réessayer</string>
+
+</resources>
